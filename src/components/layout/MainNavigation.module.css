@@ -1,32 +1,31 @@
 .header {
   width: 80%;
-  height: 3rem;
+  height: 5rem;
   display: flex;
-  padding:3px;
+  padding:2px;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #000000; */
+  background-color: #060707;
 }
 
 .logo {
   font-size: 2rem;
   color: white;
-  align-items: center;
 }
 
 .nav ul {
   list-style: none;
   display: flex;
-  margin: 4;
-  padding: 4;
+  margin: 11;
+  padding: 11;
 }
 
 
 
-/* .nav a {
+.nav a {
   text-decoration: none;
   color: #000000;
-} */
+}
 
 .nav a:hover,
 .nav a:active,

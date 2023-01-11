@@ -20,7 +20,7 @@ const PostItem = (props) => {
   }
 
   const btntext= (!isLiked  ?  'Like': 'Unlike');
-  const btnIcon= (!isLiked  ?  <FavoriteBorderIcon />: <FavoriteIcon className={classes.favoriteicon}/>);
+  const btnIcon= (!isLiked  ?  <FavoriteBorderIcon />: <FavoriteIcon />);
 
   return (
   
@@ -41,7 +41,7 @@ const PostItem = (props) => {
     {isLiked  && <Button onClick={likeHandler}  variant="outlined" startIcon={<FavoriteIcon />}>UnLike</Button>}
      */}
      
-     <Button onClick={likeHandler}  variant="outlined" startIcon={btnIcon}>{btntext}</Button>
+     <Button onClick={likeHandler}  >{btntext}</Button>
     </div>
 
   );

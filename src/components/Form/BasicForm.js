@@ -224,6 +224,8 @@ const BasicForm = (props) => {
 
   return (
     <Card>
+      <h1 style={{marginLeft:'150px'}}>Form</h1>
+      
       <form onSubmit={formSubmisionHandler}>
         <div className="control-group">
           <div className={nameInputClasses}>
