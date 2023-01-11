@@ -15,8 +15,8 @@ const MainNavigation= ()=>{
     //     setShow(appCtx.userLoggedIn)
     // },[userLoggedIn])
     return (
-        <header className={classes.header}>
-                <div className={classes.logo}> Form</div>
+        <header >
+                <h1 id = 'form' > Form</h1>
                 
                 <nav className={classes.nav}>
                     {/* <ul>

@@ -1,37 +1,35 @@
 .header {
   width: 80%;
-  height: 5rem;
+  height: 3rem;
   display: flex;
-  padding: 0 10%;
+  padding:3px;
   justify-content: space-between;
   align-items: center;
-  background-color: #008080;
+  /* background-color: #000000; */
 }
 
 .logo {
   font-size: 2rem;
   color: white;
+  align-items: center;
 }
 
 .nav ul {
   list-style: none;
   display: flex;
-  margin: 0;
-  padding: 0;
+  margin: 4;
+  padding: 4;
 }
 
-.nav li {
-  margin-left: 1.5rem;
-  font-size: 1.25rem;
-}
 
-.nav a {
+
+/* .nav a {
   text-decoration: none;
-  color: #88dfdf;
-}
+  color: #000000;
+} */
 
 .nav a:hover,
 .nav a:active,
 .nav a.active {
-  color: #e6fcfc;
+  color: #000303;
 }
